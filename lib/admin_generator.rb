@@ -1,5 +1,6 @@
 require "admin_generator/version"
-require "rails"
+require 'rails/generators'
+
 
 module AdminGenerator
   class UserGenerator < Rails::Generators::Base
