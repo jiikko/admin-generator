@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["n905i.1214@gmail.com"]
 
   spec.summary       = %q{generate admin page with sorcery}
-  spec.description   = %q{generate admin page with sorcery}
+  spec.description   = %q{generate admin page with sorcery.}
   spec.homepage      = "https://github.com/jiikko/admin_generator"
   spec.license       = "MIT"
 
