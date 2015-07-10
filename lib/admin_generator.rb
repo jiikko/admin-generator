@@ -12,7 +12,7 @@ module AdminGenerator
       directory "views", "app/views"
 
       generate "sorcery:install"
-      generate "sorcery:install", "activity_logging brute_force_protection --migrations"
+      generate "sorcery:install", "activity_logging brute_force_protection --only-submodules"
 
       route "namespace :admin do\n    root 'home#index'\n  end"
     end
