@@ -7,7 +7,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'admin_generator'
+gem 'admin_generator', github: "jiikko/admin_generator"
 ```
 
 And then execute:
