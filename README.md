@@ -16,7 +16,7 @@ And then execute:
 
 ## Usage
 ```shell
-$ bunele exec rails g admin_generator:admin install
+$ bundle exec rails g admin_generator:admin install
 ```
 
 ## Contributing
