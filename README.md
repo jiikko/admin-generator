@@ -1,13 +1,13 @@
 # AdminGenerator
 
-よくある管理画面(sorcery )のベースを作成するgenerator。
+よくある管理画面(sorcery)のベースを作成するgenerator。
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'admin_generator', github: "jiikko/admin_generator"
+gem 'admin_generator'
 ```
 
 And then execute:
