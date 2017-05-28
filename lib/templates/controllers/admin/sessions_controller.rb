@@ -1,6 +1,6 @@
-class Admin::SettionsController < Admin::BaseController
-  skip_before_filter :login_required, only: %[new, create]
-  before_action :login_required, only: %w[destroy]
+class Admin::SessionsController < Admin::BaseController
+  skip_before_action :login_required, only: %i(new create)
+  before_action :login_required, only: :destroy
 
   def new
     cookies.permanent[:admin] = true # analyticsの解析が入らないようにするやつ
@@ -19,6 +19,6 @@ class Admin::SettionsController < Admin::BaseController
 
   def destroy
     logout
-    redirect_to root_url, notice: t('sign_out')
+    redirect_to admin_root_url, notice: t('sign_out')
   end
 end
